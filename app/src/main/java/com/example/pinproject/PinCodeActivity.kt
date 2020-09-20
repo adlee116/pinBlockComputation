@@ -7,9 +7,6 @@ import androidx.activity.viewModels
 import kotlinx.android.synthetic.main.activity_main.*
 import androidx.appcompat.app.AppCompatActivity
 
-//TODO Add view Model correctly
-
-
 class PinCodeActivity : AppCompatActivity() {
 
     private val viewModel: PinCodeViewModel by viewModels()
