@@ -14,9 +14,9 @@ import org.junit.Assert.*
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 @RunWith(AndroidJUnit4::class)
-class MainViewModelTest {
+class PinCodeViewModelTest {
 
-    private val viewModel: MainViewModel = MainViewModel()
+    private val viewModel: PinCodeViewModel = PinCodeViewModel()
     private val fourLengthString = "1234"
 
     @Test

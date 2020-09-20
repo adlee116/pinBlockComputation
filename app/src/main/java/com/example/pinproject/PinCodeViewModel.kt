@@ -3,7 +3,7 @@ package com.example.pinproject
 import androidx.lifecycle.ViewModel
 import kotlin.random.Random
 
-class MainViewModel : ViewModel() {
+class PinCodeViewModel : ViewModel() {
 
     //TODO Due to the shortfall in experience in regard to storing in Byte's etc, I have tried to achieve what has been asked for with
     //TODO a more basic approach. Would love to see how this is intended to be done with the 'useful code'

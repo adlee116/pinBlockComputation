@@ -10,9 +10,9 @@ import androidx.appcompat.app.AppCompatActivity
 //TODO Add view Model correctly
 
 
-class MainActivity : AppCompatActivity() {
+class PinCodeActivity : AppCompatActivity() {
 
-    private val viewModel: MainViewModel by viewModels()
+    private val viewModel: PinCodeViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
